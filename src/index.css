@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "caldrn";
+  src: url("./assets/fonts/Avenir Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-brand: "caldrn", ui-sans-serif, system-ui;
+}
+
+@theme {
+  --color-primary: #a51be9; /* Purple 600 */
+  --color-primary-dark: #7e22ce; /* Purple 700 */
+}

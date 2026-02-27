@@ -40,28 +40,14 @@ export default function AgenticBrowserDemo() {
   };
 
   return (
-<<<<<<< HEAD
     <div className="flex flex-col lg:flex-row-reverse items-center gap-12 py-12">
       {/* Copy Side */}
       <div className="flex-1 space-y-6 max-w-md">
         <h3 className="text-3xl text-slate-900">
-          Watch Caldrn act as a virtual assistant. It identifies
-          high-intent leads, navigates to complex portals, and
-          verifies documents against compliance standards.
+          Watch Caldrn act as a virtual assistant. It identifies high-intent
+          leads, navigates to complex portals, and verifies documents against
+          compliance standards.
         </h3>
-=======
-    <div className="flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-20 py-12">
-      {/* Copy Side */}
-      <div className="flex-1 space-y-6 w-full">
-        <h3 className="text-3xl font-bold text-slate-900">
-          Autonomous Execution
-        </h3>
-        <p className="text-lg text-slate-600 leading-relaxed">
-          Watch Caldrn act as a virtual assistant. It identifies{" "}
-          <strong>high-intent leads</strong>, navigates to complex portals, and
-          verifies documents against compliance standards.
-        </p>
->>>>>>> cb295ad88048f69d28aabb7f9a4f99e7060fa61d
       </div>
 
       {/* BROWSER MOCKUP */}

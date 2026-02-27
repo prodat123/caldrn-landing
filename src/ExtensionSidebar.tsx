@@ -17,12 +17,16 @@ const navLinks = [
 interface ExtensionSidebarProps {
   isOpen: boolean;
   setIsOpen: (value: boolean) => void;
+<<<<<<< HEAD
   onNavLinkClick: (
     e:
       | React.MouseEvent<HTMLAnchorElement>
       | React.MouseEvent<HTMLButtonElement>,
     id: string,
   ) => void;
+=======
+  onNavLinkClick: (e: React.MouseEvent<HTMLAnchorElement>, id: string) => void;
+>>>>>>> cb295ad88048f69d28aabb7f9a4f99e7060fa61d
 }
 
 export default function ExtensionSidebar({
@@ -84,6 +88,7 @@ export default function ExtensionSidebar({
             </nav>
 
             {/* 3. SIMPLIFIED STATUS - Visual proof it works */}
+<<<<<<< HEAD
             <div className="p-6 w-full mt-auto border-t border-slate-100 bg-slate-50/50">
               <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] mb-4">
                 Extension Status
@@ -98,6 +103,39 @@ export default function ExtensionSidebar({
                 className="cursor-pointer relative mt-6 w-full py-3 px-2 bg-slate-900 text-white rounded-xl text-xs font-bold hover:bg-black transition-all shadow-lg shadow-slate-200"
               >
                 Join Waitlist
+=======
+            <div className="p-6 mt-auto border-t border-slate-100 bg-slate-50/50">
+              <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] mb-4">
+                Extension Status
+              </p>
+              <div className="space-y-3">
+                <div className="flex items-center gap-3">
+                  <div className="relative flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                    <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
+                  </div>
+                  <span className="text-xs font-medium text-slate-700 uppercase tracking-wide">
+                    Monitoring Active
+                  </span>
+                </div>
+
+                {/* Visual indicator of simplicity: just three icons in a line */}
+                <div className="flex gap-2 pt-1 opacity-60">
+                  <div className="w-5 h-5 rounded-md bg-white border border-slate-200 flex items-center justify-center text-[10px] text-red-500">
+                    G
+                  </div>
+                  <div className="w-5 h-5 rounded-md bg-white border border-slate-200 flex items-center justify-center text-[10px] text-blue-500">
+                    D
+                  </div>
+                  <div className="w-5 h-5 rounded-md bg-white border border-slate-200 flex items-center justify-center text-[10px] text-amber-500">
+                    L
+                  </div>
+                </div>
+              </div>
+
+              <button className="mt-6 w-full py-3 bg-slate-900 text-white rounded-xl text-xs font-bold hover:bg-black transition-all shadow-lg shadow-slate-200">
+                Install Extension
+>>>>>>> cb295ad88048f69d28aabb7f9a4f99e7060fa61d
               </button>
             </div>
           </motion.aside>

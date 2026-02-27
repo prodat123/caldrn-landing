@@ -6,6 +6,7 @@ export default function ExtensionFeature() {
   const LOOP_DURATION = 6; // Adjusted to your request
 
   return (
+<<<<<<< HEAD
     <div className="flex flex-col lg:flex-row items-center gap-12 py-12">
       {/* Text Side */}
       <div className="flex-1 space-y-6 max-w-md">
@@ -14,6 +15,18 @@ export default function ExtensionFeature() {
           No more switching tabs. Our extension sits discreetly in your browser,
           ready to analyze any page or document with a single click.
         </h3>
+=======
+    <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20 py-12">
+      {/* Text Side */}
+      <div className="flex-1 space-y-6">
+        <h3 className="text-3xl font-bold text-slate-900">
+          Lives where you work
+        </h3>
+        <p className="text-lg text-slate-600 leading-relaxed">
+          No more switching tabs. Our extension sits discreetly in your browser,
+          ready to analyze any page or document with a single click.
+        </p>
+>>>>>>> cb295ad88048f69d28aabb7f9a4f99e7060fa61d
       </div>
 
       {/* BROWSER MOCKUP */}

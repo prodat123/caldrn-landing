@@ -41,7 +41,7 @@ export default function Waitlist() {
   };
 
   return (
-    <section className="py-6" id="waitlist">
+    <section id="waitlist">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 10 }}
@@ -115,6 +115,9 @@ export default function Waitlist() {
             </AnimatePresence>
           </div>
         </motion.div>
+      </div>
+      <div className="mt-20 text-center w-full bg-gray-300 py-6 text-xs text-slate-800">
+        Copyright © {new Date().getFullYear()} Caldrn. All rights reserved.
       </div>
     </section>
   );

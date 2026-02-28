@@ -12,7 +12,9 @@ function Landing() {
 
   // Smooth Scroll Handler
   const scrollToSection = (
-    e: React.MouseEvent<HTMLAnchorElement>,
+    e:
+      | React.MouseEvent<HTMLAnchorElement>
+      | React.MouseEvent<HTMLButtonElement>,
     id: string,
   ) => {
     e.preventDefault();

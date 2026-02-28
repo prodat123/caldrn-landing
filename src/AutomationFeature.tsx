@@ -101,9 +101,9 @@ export default function AutomationFeature() {
     <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20 py-16">
       <div className="flex-1 space-y-6 max-w-md">
         <h3 className="text-3xl text-slate-900">
-          Zero-Code Setup. By consolidating your software suite into the Caldrn
-          portal, you transform fragmented tools into a synchronized operational
-          ecosystem.
+          <h4 className="font-bold text-4xl mb-2">Zero-code setup.</h4>
+          By consolidating your software suite into the Caldrn portal, you
+          transform fragmented tools into a synchronized operational ecosystem.
         </h3>
       </div>
 

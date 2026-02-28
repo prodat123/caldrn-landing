@@ -41,7 +41,7 @@ export default function Waitlist() {
   };
 
   return (
-    <section className="py-32" id="waitlist">
+    <section className="py-6" id="waitlist">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 10 }}
@@ -49,6 +49,9 @@ export default function Waitlist() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
+          <div className="flex items-center justify-center">
+            <img src="/assets/logo.png" className="w-32 h-32" />
+          </div>
           <h2 className="text-5xl md:text-6xl font-bold text-slate-900 mb-10 tracking-tight">
             Join the waitlist.
           </h2>

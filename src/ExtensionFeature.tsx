@@ -8,7 +8,7 @@ export default function ExtensionFeature() {
       {/* Text Side */}
       <div className="flex-1 space-y-6 max-w-md">
         <h3 className="text-3xl text-slate-900">
-          <span className="font-semibold mr-2">Lives where you work.</span>
+          <h4 className="font-bold text-4xl mb-2">Lives where you work.</h4>
           No more switching tabs. Our extension sits discreetly in your browser,
           ready to analyze any page or document with a single click.
         </h3>

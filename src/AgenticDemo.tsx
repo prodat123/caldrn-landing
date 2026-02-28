@@ -44,9 +44,11 @@ export default function AgenticBrowserDemo() {
       {/* Copy Side */}
       <div className="flex-1 space-y-6 max-w-md">
         <h3 className="text-3xl text-slate-900">
-          Watch Caldrn act as a virtual assistant. It identifies high-intent
-          leads, navigates to complex portals, and verifies documents against
-          compliance standards.
+          <h4 className="font-bold text-4xl mb-2">
+            Acts as a virtual assistant.
+          </h4>
+          It identifies high-intent leads, navigates to complex portals, and
+          verifies documents against compliance standards.
         </h3>
       </div>
 

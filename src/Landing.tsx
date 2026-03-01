@@ -40,7 +40,7 @@ function Landing() {
       >
         <Hero onNavLinkClick={scrollToSection} />
 
-        <section className="py-24 backdrop-blur-sm" id="features">
+        <section className="py-24" id="features">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-20">
               <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl">

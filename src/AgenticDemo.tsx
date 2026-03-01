@@ -43,8 +43,8 @@ export default function AgenticBrowserDemo() {
     <div className="flex flex-col lg:flex-row-reverse items-center gap-12 py-12">
       {/* Copy Side */}
       <div className="flex-1 space-y-6 max-w-md">
-        <h3 className="text-3xl text-slate-900">
-          <h4 className="font-bold text-4xl mb-2">
+        <h3 className="sm:text-3xl text-xl text-slate-900">
+          <h4 className="font-bold sm:text-4xl text-lg mb-2">
             Acts as a virtual assistant.
           </h4>
           It identifies high-intent leads, navigates to complex portals, and

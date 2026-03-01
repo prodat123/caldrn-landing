@@ -7,8 +7,10 @@ export default function ExtensionFeature() {
     <div className="flex flex-col lg:flex-row items-center gap-12 py-12">
       {/* Text Side */}
       <div className="flex-1 space-y-6 max-w-md">
-        <h3 className="text-3xl text-slate-900">
-          <h4 className="font-bold text-4xl mb-2">Lives where you work.</h4>
+        <h3 className="sm:text-3xl text-xl text-slate-900">
+          <h4 className="font-bold sm:text-4xl text-lg mb-2">
+            Lives where you work.
+          </h4>
           No more switching tabs. Our extension sits discreetly in your browser,
           ready to analyze any page or document with a single click.
         </h3>

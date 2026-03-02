@@ -79,7 +79,7 @@ export default function Waitlist() {
                   <button
                     type="submit"
                     disabled={status === "loading"}
-                    className="w-full sm:w-auto bg-black hover:bg-slate-800 text-white px-8 py-3 rounded-lg font-bold transition-all active:scale-95 disabled:bg-slate-400 flex items-center justify-center min-w-[140px]"
+                    className="cursor-pointer w-full sm:w-auto bg-black hover:bg-slate-800 text-white px-8 py-3 rounded-lg font-bold transition-all active:scale-95 disabled:bg-slate-400 flex items-center justify-center min-w-[140px]"
                   >
                     {status === "loading" ? (
                       <motion.div

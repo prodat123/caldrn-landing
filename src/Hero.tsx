@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import productImage from "/assets/product_image.png";
+import CaldrnHeaderGif from "/assets/CaldrnHeaderGif.gif";
 
 interface ExtensionSidebarProps {
   onNavLinkClick: (e: React.MouseEvent<HTMLAnchorElement>, id: string) => void;
@@ -39,7 +39,7 @@ export default function Hero({ onNavLinkClick }: ExtensionSidebarProps) {
           >
             <a
               onClick={(e) => onNavLinkClick(e, "#waitlist")}
-              className="inline-flex items-center gap-2 rounded-full bg-[#1E1E1E] px-6 py-2.5 text-2xl font-medium text-white transition-all hover:bg-black active:scale-95 shadow-sm"
+              className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-2.5 text-2xl font-medium text-white transition-all cursor-pointer hover:bg-primary-dark active:scale-95 shadow-sm"
             >
               Join the Waitlist
               <svg
@@ -66,9 +66,9 @@ export default function Hero({ onNavLinkClick }: ExtensionSidebarProps) {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="relative w-full max-w-8xl mx-auto rounded-md shadow-2xl"
+          className="relative w-full max-w-8xl mx-auto rounded-xl shadow-2xl p-4"
         >
-          <img src={productImage}></img>
+          <img src={CaldrnHeaderGif}></img>
         </motion.div>
       </div>
     </section>
